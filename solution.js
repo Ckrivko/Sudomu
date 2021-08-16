@@ -76,15 +76,6 @@ function solve() {
         let isValid = true;
 
 
-        // for (let row = 0; row < matrix.length; row++) {
-
-        //     if (matrix[row][0] == matrix[row][1] || matrix[row][0] == matrix[row][2]
-        //         || matrix[row][1] == matrix[row][2]) {
-
-        //         isValid = false;
-        //     }
-
-        // }
         for (let row = 0; row < matrix.length; row++) {
 
             for (let col = 0; col < matrix[row].length - 1; col++) {
@@ -120,16 +111,7 @@ function solve() {
 
         }
 
-        // for (let col = 0; col < matrix.length; col++) {
-
-        //     if (matrix[0][col] == matrix[1][col] ||
-        //         matrix[0][col] == matrix[2][col] ||
-        //         matrix[1][col == matrix[2][col]]) {
-
-        //         isValid = false;
-        //     }
-
-        // }
+        
 
 
         function checkIsItBetween(matrix, isValid) {
